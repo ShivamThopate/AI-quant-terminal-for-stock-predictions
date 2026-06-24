@@ -1,0 +1,63 @@
+{
+    "portfolio_name": "Nifty Auto Top 5",
+    "risk_level": "medium",
+    "regime": "bull",
+    "capital": 1000000,
+    "strategy": "max_sharpe",
+    "allocations": [
+        {
+            "ticker": "HEROMOTOCO.NS",
+            "shares": 75,
+            "price_per_share": 5322.0,
+            "total_value": 399150.0,
+            "weight": 0.4,
+            "p_take_profit": 0.09248572587966919,
+            "p_stop_loss": 0.5558191537857056,
+            "max_drawdown": 0.2035
+        },
+        {
+            "ticker": "EICHERMOT.NS",
+            "shares": 54,
+            "price_per_share": 7302.5,
+            "total_value": 394335.0,
+            "weight": 0.4,
+            "p_take_profit": 0.40214022994041443,
+            "p_stop_loss": 0.31074491143226624,
+            "max_drawdown": 0.1958
+        },
+        {
+            "ticker": "BAJAJ-AUTO.NS",
+            "shares": 12,
+            "price_per_share": 10711.5,
+            "total_value": 128538.0,
+            "weight": 0.12189,
+            "p_take_profit": 0.09889650344848633,
+            "p_stop_loss": 0.7423122525215149,
+            "max_drawdown": 0.1337
+        },
+        {
+            "ticker": "M&M.NS",
+            "shares": 23,
+            "price_per_share": 3330.4,
+            "total_value": 76599.2,
+            "weight": 0.07811,
+            "p_take_profit": 0.6750421524047852,
+            "p_stop_loss": 0.17080791294574738,
+            "max_drawdown": 0.2291
+        }
+    ],
+    "total_invested": 998622.2,
+    "leftover_cash": 1377.8,
+    "utilization_pct": 99.86,
+    "circuit_breaker_active": false,
+    "cash_suggestion": null,
+    "sector_exposure": {
+        "AUTO": 0.5229
+    },
+    "risk_warnings": [
+        "HEROMOTOCO.NS: Max drawdown (20.3%) exceeds threshold (20.0%). REMOVED from allocation.",
+        "M&M.NS: Max drawdown (22.9%) exceeds threshold (20.0%). REMOVED from allocation.",
+        "Sector 'AUTO' exposure (52.3%) exceeds cap (40.0%). Consider reducing positions.",
+        "EICHERMOT.NS: Trading -10.8% below recent peak. Trailing stop-loss flag."
+    ]
+}

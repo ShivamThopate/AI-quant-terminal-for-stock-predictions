@@ -1,0 +1,45 @@
+# Environment variables (SENSITIVE - never commit)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model artifacts (large files)
+*.pkl
+*.joblib
+*.h5
+
+# Data cache
+data/cache/
+
+# Logs
+*.log

@@ -1,0 +1,22 @@
+{
+  "weights": {
+    "MRF.NS": 0.4,
+    "CEATLTD.NS": 0.2,
+    "APOLLOTYRE.NS": 0.4
+  },
+  "allocation": {
+    "APOLLOTYRE.NS": 195,
+    "CEATLTD.NS": 12
+  },
+  "leftover_cash": 80310.65,
+  "total_invested": 119689.35,
+  "latest_prices": {
+    "MRF.NS": 130425.0,
+    "CEATLTD.NS": 3323.8,
+    "APOLLOTYRE.NS": 409.25
+  },
+  "strategy": "max_sharpe",
+  "regime": "bull",
+  "cash_reserve_pct": 0.0,
+  "capital": 200000
+}

@@ -1,0 +1,44 @@
+# ============================================================================
+# Algorithmic Trading & Financial Analyst System — Dependencies
+# ============================================================================
+
+# --- Data Sources ---
+yfinance>=0.2.31
+jugaad-data>=0.24
+nsepython>=2.8
+
+# --- Data Manipulation ---
+pandas>=2.0
+numpy>=1.24
+
+# --- Machine Learning ---
+scikit-learn>=1.3
+xgboost>=2.0
+
+# --- Portfolio Optimization ---
+pyportfolioopt>=1.5
+
+# --- NLP / Sentiment ---
+nltk>=3.8
+transformers>=4.30
+torch>=2.0
+
+# --- Web Scraping & HTTP ---
+requests>=2.31
+beautifulsoup4>=4.12
+feedparser>=6.0
+
+# --- Model Serialization ---
+joblib>=1.3
+
+# --- LLM Agent (Groq via OpenAI SDK) ---
+openai>=1.0
+python-dotenv>=1.0
+
+# --- Testing ---
+pytest>=7.4
+
+# --- Web UI (Phase 4) ---
+streamlit>=1.30
+plotly>=5.18
+

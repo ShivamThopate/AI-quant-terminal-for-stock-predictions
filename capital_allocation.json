@@ -1,0 +1,20 @@
+{
+    "test_name": "MRF Capital Constraint Test",
+    "capital": 100000,
+    "allocations": [
+        {
+            "ticker": "ITC.NS",
+            "shares": 212,
+            "price_per_share": 307.45,
+            "total_value": 65179.4
+        }
+    ],
+    "total_invested": 65179.4,
+    "leftover_cash": 34820.6,
+    "utilization_pct": 65.18,
+    "notes": [
+        "MRF.NS trades at Rs.130,425.00 -- exceeds Rs.1,00,000 capital",
+        "MRF.NS correctly allocated 0 shares (no fractional shares allowed)",
+        "ITC.NS allocated 212 shares at Rs.307.45/share"
+    ]
+}
